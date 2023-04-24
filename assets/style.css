@@ -1,0 +1,116 @@
+
+
+/* header */
+#navebar .logo{
+    width: 150px;
+}
+#navebar .btn-secondary{
+    background-color: #d3daff;
+    border: none;
+    color: #647bfc;
+    font-weight: 500;
+}
+#navebar .btn-flight{
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+}
+/* banner */
+#hotel a{
+    text-decoration: none;
+}
+#hotel h1{
+    font-size: 80px;
+}
+#hotel .btn-primary{
+    background-color: rgb(189, 211, 252);
+    border: none;
+    color: rgb(94, 127, 236);
+    font-size: 15px;
+    padding: 13px 27px;
+}
+#hotel a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#ffffff;
+    padding-top: 12px;
+    transform: translate(25%, 25%);
+    text-align: center;
+}
+#hotel a {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-image: url(./images/explore-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#hotel .img-3{
+    position: absolute;
+    border: 5px solid rgb(255, 255, 255);
+    width: 75px;
+    height: 75px;
+    top: 121px;
+    left: 923px;
+    display: block;
+}
+#hotel .img-4{
+    position: absolute;
+    border: 5px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    transform: translate(-690%, 145%);
+}
+#hotel .music{
+    transform: translate(337%, -467%);
+    padding: 20px;
+}
+/* check availability */
+#hotel .form-select{
+    padding: 1.375rem 0.25rem 1.375rem 0.75rem;
+    background-image: none;
+} 
+#hotel .date input{
+    border: 1px solid #dee2e6;
+    padding: 22px 56px;
+    border-radius: var(--bs-border-radius);
+    appearance: none;
+}
+#hotel .date input:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+#hotel .check{
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+#search{
+    top: 535px;
+}
+#search label{
+    display: block;
+    margin-bottom: -10px;
+    padding: 0 5px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+/* search bar */
+#hotel .search-bar{
+    right: -40px;
+    background-color: #647bfc;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    color: white;
+}
+#hotel .search-bar .magnifying-glass{
+    transform: translate(45%, 45%);
+}
