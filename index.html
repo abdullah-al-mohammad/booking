@@ -79,7 +79,7 @@
               <div class="col mb-5">
                 <h1 class="fw-bold text-capitalize">find the top hotels nearby.</h1>
                 <p>we bring you not only a stay option, but an experience in your budget <br> to enjoy the luxury.</p>
-                <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center">
                   <button type="button" class="btn btn-primary btn-lg fw-bold">Discover Now</button>
                   <a href=""><i class="fa-sharp fa-1x fa-solid fa-play"></i>
                   </a>
@@ -102,7 +102,7 @@
               <div class="row align-items-center justify-content-center shadow check">
                 <div class="col-md-4">
                   <div class="d-flex align-items-center">  
-                    <i class="fa-solid fa-3x fa-location-dot me-3"></i>
+                    <i class="fa-solid fa-2x fa-location-dot me-3"></i>
                     <div class="flex-grow-1">
                       <label for="inputState" class="form-label ms-4">Location</label>
                       <select id="inputState" class="form-select">
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-4 date">
                   <div class="d-flex align-items-center">
-                    <i class="fa-regular fa-3x fa-calendar me-3"></i>
+                    <i class="fa-regular fa-2x fa-calendar me-3"></i>
                     <div class="flex-grow-1">
                       <label for="start" class="form-label ms-4">check in-Out</label>
                       <input type="date" id="start" name="trip-start"
@@ -125,7 +125,7 @@
                   </div>
                 <div class="col-md-4">
                   <div class="d-flex align-items-center">
-                    <i class="fa-regular fa-3x fa-user me-3"></i>
+                    <i class="fa-regular fa-2x fa-user me-3"></i>
                     <div class="flex-grow-1">
                       <label for="check" class="form-label ms-4">Guests & Room</label>
                       <select class="form-select" aria-label="Default select example">
@@ -145,9 +145,11 @@
             </section>
             <!-- Offer -->
         <section class="container">
-          <div>
+          <ul class="control" id="customControls">
+            <li class="prev"><i class="fa-solid fa-angle-left"></i></li>
+            <li class="next"><i class="fa-solid fa-angle-right"></i></li>
+          </ul>
             <div class="my-slider">
-              <div>
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-6">
@@ -161,8 +163,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div>
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-6">
@@ -176,8 +176,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div>
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class="row g-0">
                     <div class="col-md-6">
@@ -204,10 +202,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
-            <!-- or ul.my-slider > li -->
-          </div>
         </section>
     </main>
     <br>
@@ -222,19 +217,27 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- tiny slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
   <script>
     var slider = tns({
       container: '.my-slider',
       items: 1,
       responsive: {
         640: {
-          edgePadding: 20,
+          items: 2,
+          // navAsThumbnails: true,
+          autoplay: true,
+          autoplayTimeout: 1000,
+          // autoplayButton: "#customize-toggle",
+          swipeAngle: true,
+          speed: 600,
+          controls: false,
+          nav: false,
+          autoplayButtonOutput: false,
           gutter: 20,
-          items: 2
+          controlsContainer: "#customControls",
         },
-        700: {
-          gutter: 30
+        800: {
+          gutter: 50
         },
         900: {
           items: 3
@@ -242,15 +245,15 @@
       }
     });
   </script>
-  <script type="module">
+  <!-- <script type="module">
     import {tns} from './src/tiny-slider.js';
   
     var slider = tns({
       container: '.my-slider',
-      items: 4,
+      items: 3,
       slideBy: 'page',
       autoplay: true,
     });
-    </script>
+    </script> -->
 </body>
 </html>
