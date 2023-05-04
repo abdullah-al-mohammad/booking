@@ -142,7 +142,15 @@
 .control li.next{
     right: 50px;
 }
-#Clint .clint-card img{
+/* clint-card */
+#clint .clint-card{
+    transform: translate(13%, -122%);
+}
+#clint .clints img{
     width: 35px;
     height: 35px;
+}
+#clint .thums-up{
+    width: 50px;
+    transform: translate(-70%, -95%);
 }
