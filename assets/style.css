@@ -147,8 +147,11 @@
     transform: translate(13%, -122%);
 }
 #clint .clints img{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
+}
+#clint .clints{
+    margin-right: -22px;
 }
 #clint .thums-up{
     width: 50px;
