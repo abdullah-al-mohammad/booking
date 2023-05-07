@@ -55,8 +55,8 @@
     border: 5px solid rgb(255, 255, 255);
     width: 75px;
     height: 75px;
-    top: 121px;
-    left: 923px;
+    top: 30%;
+    transform: translate(-32px, 0);
     display: block;
 }
 #hotel .img-4{
@@ -64,10 +64,13 @@
     border: 5px solid rgb(255, 255, 255);
     width: 100px;
     height: 100px;
-    transform: translate(-690%, 145%);
+    top: 50%;
+    transform: translate(-590%, 0);
 }
 #hotel .music{
-    transform: translate(337%, -467%);
+    position: absolute;
+    top: 20%;
+    transform: translate(285%, 0);
     padding: 20px;
 }
 /* check availability */
@@ -123,24 +126,25 @@
 .control li{
     position:absolute;
     z-index: 99;
-    top: 101%;
     color: white;
     background-color: rgb(0,0,0,0.5);
     padding: 12px 20px;
     border-radius: 50%;
     cursor: pointer;
+    top: 50%;
+    transform: translate(0, -50%);
 }
-.card:hover .control li.prev{
+/* .container:hover .control li.prev{
     left: 310px;
-}
-.card:hover .control li.next{
+} */
+/* .container:hover .control li.next{
     right: 310px;
-}
+} */
 .control li.prev{
-    left: 50px;
+    left: 0;
 }
 .control li.next{
-    right: 50px;
+    right: 0;
 }
 /* clint-card */
 #clint .clint-card{
@@ -159,4 +163,16 @@
 }
 #clint .hotel-quality .fs-1{
     font-size: 3rem!important;
+}
+#clint .hotel-quality .holiday-icons{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+#clint .hotel-quality .holiday-icons i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
