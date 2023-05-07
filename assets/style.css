@@ -74,6 +74,11 @@
     padding: 20px;
 }
 /* check availability */
+
+#search{
+    /* top: 0; */
+    bottom: 8%;
+}
 #hotel .form-select{
     padding: 1.375rem 0.25rem 1.375rem 0.75rem;
     background-image: none;
@@ -93,9 +98,6 @@
     border-radius: 12px;
     background-color: #ffffff;
     padding: 30px;
-}
-#search{
-    top: 535px;
 }
 #search label{
     margin-top: -13px;
@@ -134,17 +136,25 @@
     top: 50%;
     transform: translate(0, -50%);
 }
-/* .container:hover .control li.prev{
-    left: 310px;
-} */
-/* .container:hover .control li.next{
-    right: 310px;
-} */
+.container:hover .control li.prev{
+    left: 2%;
+    transition: all .2s;
+    visibility: visible;
+}
+.container:hover .control li.next{
+    right: 2%;
+    transition: all .2s;
+    visibility: visible;
+}
 .control li.prev{
-    left: 0;
+    left: -6%;
+    transition: all .2s;
+    visibility: hidden;
 }
 .control li.next{
-    right: 0;
+    right: -6%;
+    transition: all .2s;
+    visibility: hidden;
 }
 /* clint-card */
 #clint .clint-card{
