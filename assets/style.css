@@ -1,6 +1,7 @@
 
 
 /* header */
+
 #navebar .logo{
     width: 150px;
 }
@@ -16,6 +17,7 @@
     font-weight: 500;
 }
 /* banner */
+
 #hotel a{
     text-decoration: none;
 }
@@ -65,8 +67,9 @@
     width: 100px;
     height: 100px;
     top: 30%;
-    right: 0%;
-    transform: translate(-590%, 0);
+    right: 0;
+    left: 0;
+    transform: translate(-25%, 0);
     display: block;
 }
 #hotel .music{
@@ -78,7 +81,6 @@
 /* check availability */
 
 #search{
-    /* top: 0; */
     bottom: 8%;
 }
 #hotel .form-select{
@@ -109,6 +111,7 @@
     position: absolute;
 }
 /* search bar */
+
 #hotel .search-bar{
     right: -40px;
     background-color: #647bfc;
@@ -121,9 +124,7 @@
     transform: translate(45%, 45%);
 }
 /* carousel slider */
-/* .card{
-    margin-right: 20px;
-} */
+
 .control{
     list-style: none;   
 }
@@ -160,7 +161,7 @@
 }
 /* clint-card */
 #clint .clint-card{
-    bottom: 25px;
+    bottom: 50px;
     left: 50px;
 }
 #clint .clints img{
