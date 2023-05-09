@@ -160,6 +160,7 @@
     visibility: hidden;
 }
 /* clint-card */
+
 #clint .clint-card{
     bottom: 25px;
     left: 50px;
@@ -189,4 +190,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* Featured */
+
+#featuredHotel .map{
+    bottom: 100px;
+    left: 25px;
+    padding: 0 10px;
+}
+#featuredHotel .star p{
+    color: #0add96;
+}
+/* brand */
+
+#brands .brand img{
+    max-width: 70%;
+    filter: grayscale(100);
+    padding: 15px 0;
+}
+#brands .brand:hover img{
+    transition: all .4s ease-in-out;
+    transform: scale(1.2);
+    filter: grayscale(0);
 }
