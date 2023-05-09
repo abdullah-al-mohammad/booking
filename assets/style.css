@@ -213,3 +213,6 @@
     transform: scale(1.2);
     filter: grayscale(0);
 }
+#advertise .double-quote{
+    color: #1a38e5;
+}
