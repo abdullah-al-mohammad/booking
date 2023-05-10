@@ -224,3 +224,7 @@
 #advertise .card{
     border: none;
 }
+#explore img{
+    width: 80%;
+    height: 80%;
+}
