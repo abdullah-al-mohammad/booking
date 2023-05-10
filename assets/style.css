@@ -216,3 +216,8 @@
 #advertise .double-quote{
     color: #1a38e5;
 }
+#advertise .lough{
+    width: 50px;
+    left: -9px;
+    top: 10px;
+}
