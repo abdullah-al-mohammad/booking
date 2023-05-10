@@ -221,3 +221,6 @@
     left: -9px;
     top: 10px;
 }
+#advertise .card{
+    border: none;
+}
