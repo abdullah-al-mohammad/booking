@@ -21,9 +21,6 @@
 #hotel a{
     text-decoration: none;
 }
-#hotel h1{
-    font-size: 80px;
-}
 #hotel .btn-primary{
     background-color: rgb(189, 211, 252);
     border: none;
@@ -160,6 +157,9 @@
     visibility: hidden;
 }
 /* clint-card */
+#clint{
+    background: url(./images/dot-img.svg);
+}
 
 #clint .clint-card{
     bottom: 25px;
@@ -218,11 +218,8 @@
 }
 #advertise .lough{
     width: 50px;
-    left: -9px;
+    left: 95px;
     top: 10px;
-}
-#advertise .card{
-    border: none;
 }
 #explore img{
     width: 80%;
