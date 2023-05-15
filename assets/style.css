@@ -22,23 +22,28 @@
     text-decoration: none;
 }
 #hotel .btn-primary{
-    background-color: rgb(189, 211, 252);
+    background-color: rgb(125 108 215 / 17%);
     border: none;
-    color: rgb(94, 127, 236);
+    color: rgb(129 94 236);
     font-size: 15px;
     padding: 13px 27px;
 }
-#hotel a i{
-    width: 40px;
-    height: 40px;
+#hotel .btn-primary:hover{
+    background-color: rgba(126, 108, 215, 0.781);
+    color: rgb(255, 255, 255);
+}
+#hotel .video-play button{
+    width: 32px;
+    height: 32px;
     border-radius: 50px;
     background-color:#ffffff;
-    padding-top: 12px;
-    transform: translate(25%, 25%);
-    text-align: center;
+    transform: translate(45%, 45%);
+    border: none;
 }
-#hotel a {
-    content: "";
+#hotel .video-play button i{
+    transform: translate(12%, 0%);
+}
+#hotel .video-play {
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -71,9 +76,10 @@
 }
 #hotel .music{
     position: absolute;
-    top: -2%;
-    right: 0%;
-    padding: 20px;
+    top: -3%;
+    right: -1%;
+    padding: 20px 25px;
+    backdrop-filter: blur(5px);
 }
 /* check availability */
 
@@ -86,9 +92,10 @@
 } 
 #hotel .date input{
     border: 1px solid #dee2e6;
-    padding: 22px 56px;
+    padding: 22px 120px 22px 0px;
     border-radius: var(--bs-border-radius);
     appearance: none;
+    text-align: center;
 }
 #hotel .date input:focus{
     border-color: #86b7fe;
@@ -111,7 +118,7 @@
 
 #hotel .search-bar{
     right: -40px;
-    background-color: #647bfc;
+    background-color: #4d2dff;
     border-radius: 50px;
     width: 60px;
     height: 60px;
