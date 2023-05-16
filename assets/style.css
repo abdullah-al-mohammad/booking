@@ -86,9 +86,15 @@
 #search{
     bottom: 8%;
 }
+#search i{
+    color: #bfc0c4;
+}
 #hotel .form-select{
     padding: 1.375rem 0.25rem 1.375rem 0.75rem;
     background-image: none;
+} 
+#hotel .location{
+    color: #bfc0c4;
 } 
 #hotel .date input{
     border: 1px solid #dee2e6;
@@ -108,11 +114,12 @@
     padding: 30px;
 }
 #search label{
+    position: absolute;
     margin-top: -13px;
     padding: 0 5px;
     background-color: white;
     z-index: 1;
-    position: absolute;
+    color: #bfc0c4;
 }
 /* search bar */
 
