@@ -86,7 +86,7 @@
 #search{
     bottom: 8%;
 }
-#search i{
+#search .icons{
     color: #bfc0c4;
 }
 #hotel .form-select{
@@ -98,10 +98,9 @@
 } 
 #hotel .date input{
     border: 1px solid #dee2e6;
-    padding: 1.375rem 3.25rem 1.375rem 0.75rem;
+    padding: 1.375rem 6.25rem 1.375rem 0.75rem;
     border-radius: var(--bs-border-radius);
     appearance: none;
-    text-align: center;
 }
 #hotel .date input:focus{
     border-color: #86b7fe;
@@ -174,7 +173,10 @@
 #clint{
     background: url(./images/dot-img.svg);
 }
-
+#clint .star{
+    top: -36px;
+    left: -3px;
+}
 #clint .clint-card{
     bottom: 25px;
     left: 50px;
