@@ -149,16 +149,6 @@
     top: 50%;
     transform: translate(0, -50%);
 }
-.container:hover .control li.prev{
-    left: 2%;
-    transition: all .2s;
-    visibility: visible;
-}
-.container:hover .control li.next{
-    right: 2%;
-    transition: all .2s;
-    visibility: visible;
-}
 .control li.prev{
     left: -6%;
     transition: all .2s;
@@ -168,6 +158,26 @@
     right: -6%;
     transition: all .2s;
     visibility: hidden;
+}
+#offer:hover .control li.prev{
+    left: 2%;
+    transition: all .2s;
+    visibility: visible;
+}
+#offer:hover .control li.next{
+    right: 2%;
+    transition: all .2s;
+    visibility: visible;
+}
+#advertise:hover .control li.prev{
+    left: 2%;
+    transition: all .2s;
+    visibility: visible;
+}
+#advertise:hover .control li.next{
+    right: 2%;
+    transition: all .2s;
+    visibility: visible;
 }
 /* clint-card */
 #clint{
@@ -182,7 +192,7 @@
     left: 50px;
 }
 #clint .dot-img{
-    bottom: -33px;
+    bottom: -50px;
     right: 10px;
 }
 #clint .clints img{
@@ -192,13 +202,15 @@
 #clint .clints{
     margin-right: -22px;
 }
-#clint .clints .one-thousand{
-    /* margin-right: -22px; */
-    /* padding: 20px; */
-    width: 50px;
-    height: 50px;
+#clint .one-thousand{
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: #4d2dff;
+    transform: translate(60%, 40%);
+}
+#clint .one-thousand p{
+    transform: translate(25%, 50%);
 }
 #clint .thums-up{
     width: 50px;
@@ -228,6 +240,12 @@
 }
 #featuredHotel .star p{
     color: #0add96;
+}
+.featured-card:hover .img-fluid{
+    transform: scale(1.1);
+}
+.featured-card:hover .text-capitalize{
+    color: #647bfc;
 }
 /* brand */
 
