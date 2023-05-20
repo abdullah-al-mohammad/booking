@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'DM Sans', sans-serif;
+}
 
 /* header */
 
@@ -17,7 +19,10 @@
     font-weight: 500;
 }
 /* banner */
-
+.line{
+    left: 0;
+    top: 75%;
+}
 #hotel a{
     text-decoration: none;
 }
@@ -101,10 +106,8 @@
     color: #bfc0c4;
 } 
 #hotel .date input{
-    border: 1px solid #dee2e6;
-    padding: 1.375rem 6.25rem 1.375rem 0.75rem;
-    border-radius: var(--bs-border-radius);
-    appearance: none;
+    border: 0;
+    padding: 1.375rem 0.25rem 1.375rem 0.75rem;
 }
 #hotel .date input:focus{
     border-color: #86b7fe;
@@ -197,7 +200,7 @@
 }
 #clint .dot-img{
     bottom: -50px;
-    right: 5px;
+    right: -40px;
 }
 #clint .clints img{
     width: 45px;
@@ -245,13 +248,19 @@
 #featuredHotel .star p{
     color: #0add96;
 }
+.featured-card .img-fluid{
+    transition: all .5s;
+}
+.featured-card .text-capitalize{
+    transition: all .5s;
+}
 .featured-card:hover .img-fluid{
     transform: scale(1.1);
-    transition: all 1s;
+    transition: all .5s;
 }
 .featured-card:hover .text-capitalize{
     color: #647bfc;
-    transition: all .7s;
+    transition: all .5s;
 }
 /* brand */
 
@@ -259,10 +268,10 @@
     max-width: 70%;
     filter: grayscale(100);
     padding: 15px 0;
+    transition: all .3s ease-in-out;
 }
 #brands .brand:hover img{
-    transition: all .4s ease-in-out;
-    transform: scale(1.2);
+    transition: all .3s ease-in-out;
     filter: grayscale(0);
 }
 #advertise .double-quote{
@@ -270,8 +279,8 @@
 }
 #advertise .lough{
     width: 50px;
-    left: 100px;
-    top: 10px;
+    left: 70px;
+    top: 20px;
     background-color: rgb(250, 142, 70);
 }
 #explore img{
