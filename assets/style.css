@@ -342,11 +342,20 @@ body{
 .paypal{
     width: 80px;
 }
-#footerMiddle .social i{
-    width: 50px;
-    height: 50px;
-    background-color: #2c5ee7;
+#footerMiddle .social a{
+    color: white;
+}
+#footerMiddle .social .facebook{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(61 154 233);
+}
+#footerMiddle .social .facebook i{
+    left: 0;
+    right: 0;
+    transform: translate(50%, 50%);
 }
 #footerMiddle p{
     color: #bfc0c4;
+    text-decoration: none;
 }
