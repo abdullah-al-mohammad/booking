@@ -345,15 +345,37 @@ body{
 #footerMiddle .social a{
     color: white;
 }
+#footerMiddle .social i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 #footerMiddle .social .facebook{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(76 90 161);
+}
+#footerMiddle .social .insta{
+    width: 35px;
+    height: 35px;
+    background-color: #dc356b;
+}
+#footerMiddle .social .twit{
     width: 35px;
     height: 35px;
     background-color: rgb(61 154 233);
 }
-#footerMiddle .social .facebook i{
-    left: 0;
-    right: 0;
-    transform: translate(50%, 50%);
+#footerMiddle .social .twit{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(61 154 233);
+}
+#footerMiddle .social .linkedin{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(24 132 223);
 }
 #footerMiddle p{
     color: #bfc0c4;
