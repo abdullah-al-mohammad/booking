@@ -18,6 +18,10 @@ body{
     background-color: transparent;
     font-weight: 500;
 }
+#navebar .alert{
+    padding: 8px;
+    background-color: #86b7fe40;
+}
 /* banner */
 .line{
     left: 0;
@@ -292,8 +296,8 @@ body{
     padding: 12px 20px;
     border-radius: 50%;
     cursor: pointer;
-    top: 40%;
-    transform: translate(0, -50%);
+    top: 50%;
+    transform: translate(50%, -50%);
     border: 2px solid black;
 }
 .control2 li.prev{
@@ -307,7 +311,7 @@ body{
     visibility: hidden;
 }
 #advertise:hover .control2 li.prev{
-    left: 80px;
+    left: -110px;
     transition: all .3s;
     visibility: visible;
 }
@@ -317,7 +321,7 @@ body{
     visibility: visible;
 }
 .big-dot{
-    left: 80px;
+    right: 74px;
     bottom: 0;
 }
 /* download app */
