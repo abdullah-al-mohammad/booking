@@ -301,22 +301,22 @@ body{
     border: 2px solid black;
 }
 .control2 li.prev{
-    left: -80px;
+    left: -100px;
     transition: all .3s;
     visibility: hidden;
 }
 .control2 li.next{
-    right: -80px;
+    right: -100px;
     transition: all .3s;
     visibility: hidden;
 }
 #advertise:hover .control2 li.prev{
-    left: -110px;
+    left: -25px;
     transition: all .3s;
     visibility: visible;
 }
 #advertise:hover .control2 li.next{
-    right: 10px;
+    right: -25px;
     transition: all .3s;
     visibility: visible;
 }
