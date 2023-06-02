@@ -321,7 +321,7 @@ body{
     visibility: visible;
 }
 .big-dot{
-    right: -20px;
+    right: 74px;
     bottom: 0;
 }
 /* download app */
@@ -359,27 +359,22 @@ body{
 #footerMiddle .social .facebook{
     width: 35px;
     height: 35px;
-    background-color: rgb(76 90 161);
+    background-color: #5C81CF;
 }
 #footerMiddle .social .insta{
     width: 35px;
     height: 35px;
-    background-color: #dc356b;
+    background-color: #C22B72;
 }
 #footerMiddle .social .twit{
     width: 35px;
     height: 35px;
-    background-color: rgb(61 154 233);
-}
-#footerMiddle .social .twit{
-    width: 35px;
-    height: 35px;
-    background-color: rgb(61 154 233);
+    background-color: #40BDF3;
 }
 #footerMiddle .social .linkedin{
     width: 35px;
     height: 35px;
-    background-color: rgb(24 132 223);
+    background-color: #238CC8;
 }
 #footerMiddle p{
     color: #bfc0c4;
