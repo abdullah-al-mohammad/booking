@@ -3,7 +3,9 @@ body{
 }
 
 /* header */
-
+.navbar-toggler:focus{
+    box-shadow: none;
+} 
 #navebar .logo{
     width: 150px;
 }

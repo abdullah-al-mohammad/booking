@@ -16,18 +16,22 @@
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 <body>
-    <header id="navebar" class="container">
+    <header id="navebar">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <img class="logo" src="./assets/images/logo.svg" alt="">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/images/logo.svg" alt="">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+          </button>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategory" aria-controls="navbarCategory" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link text-success dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Listing
                 </a>
                 <ul class="dropdown-menu">
@@ -66,11 +70,38 @@
             </ul>
             <h2 class="mb-3 ms-3">...</h2>
           </div>
-          <div class="float-end">
-            <button type="button" class="btn btn-secondary"><i class="fa-solid fa-hotel"></i> Hotel</button>
-            <button type="" class="btn-flight mx-2"><i class="fa-solid fa-jet-fighter"></i> Flight</button>
-            <button type="button" class="btn btn-secondary"><i class="fa-solid fa-earth-americas"></i> Tour</button>
-            <button type="" class="btn-flight mx-2"><i class="fa-solid fa-taxi"></i> Cab</button>
+          <!-- ----------- -->
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarCategory">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-hotel"></i> Hotel
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-jet-fighter"></i> Flight
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-taxi"></i> Cab
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-earth-americas"></i> Tour
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
             <span class="position-relative bell rounded ms-2">
               <i class="fa-regular fa-bell ms-1"></i> 
               <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
