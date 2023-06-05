@@ -163,12 +163,12 @@ body{
     transform: translate(0, -50%);
 }
 .control li.prev{
-    left: -80px;
+    left: -10px;
     transition: all .3s;
     visibility: hidden;
 }
 .control li.next{
-    right: -80px;
+    right: -10px;
     transition: all .3s;
     visibility: hidden;
 }
@@ -303,12 +303,12 @@ body{
     border: 2px solid black;
 }
 .control2 li.prev{
-    left: -100px;
+    left: -10px;
     transition: all .3s;
     visibility: hidden;
 }
 .control2 li.next{
-    right: -100px;
+    right: -10px;
     transition: all .3s;
     visibility: hidden;
 }
