@@ -4,16 +4,14 @@ body{
 
 /* header */
 .navbar-toggler:focus{
-    box-shadow: none;
+    box-shadow: none!important;
 } 
 #navebar .logo{
     width: 150px;
 }
-#navebar .btn-secondary{
+.nav-item .bg-PurplishBlue{
     background-color: #EDECFB;
-    border: none;
     color: #5143D9;
-    font-weight: 500;
 }
 #navebar .btn-flight{
     border: none;
