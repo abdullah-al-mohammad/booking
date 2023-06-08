@@ -14,21 +14,16 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-image: url(./images/grip-horizontal.svg)!important;
+    background-image: url(./images/dots-nine.svg)!important;
 } 
-#navebar .logo{
+.navbar-brand .logo{
     width: 150px;
 }
-.nav-item .bg-PurplishBlue{
+.nav-item .active{
     background-color: #EDECFB;
-    color: #5143D9;
+    color: #5143D9!important;
 }
-#navebar .btn-flight{
-    border: none;
-    background-color: transparent;
-    font-weight: 500;
-}
-#navebar .bell{
+.bell{
     padding: 8px;
     background-color: rgb(245, 245, 246);
 }

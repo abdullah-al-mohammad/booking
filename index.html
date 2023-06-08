@@ -16,7 +16,7 @@
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 <body>
-    <header id="navebar">
+    <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -31,8 +31,8 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Listing
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Listings
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -44,7 +44,7 @@
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Pages
                 </a>
                 <ul class="dropdown-menu">
@@ -57,7 +57,7 @@
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Accounts
                 </a>
                 <ul class="dropdown-menu">
@@ -68,34 +68,38 @@
                 </ul>
               </li>
             </ul>
-            <h2 class="mb-3 ms-3">...</h2>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" href=""><i class="fa-solid fa-ellipsis"></i></a>
+              </li>
+            </ul>
           </div>
           <!-- ----------- -->
           <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center" id="navbarCategory">
             <ul class="navbar-nav mb-2 mb-lg-0 mx-2">
               <li class="nav-item dropdown">
-                <a class="nav-link bg-PurplishBlue rounded fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active rounded fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa-solid fa-hotel"></i> Hotel
                 </a>
               </li>
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0 mx-2">
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa-solid fa-jet-fighter"></i> Flight
                 </a>
               </li>
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0 mx-2">
               <li class="nav-item dropdown">
-                <a class="nav-link bg-PurplishBlue rounded fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active rounded fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa-solid fa-earth-americas"></i> Tour
                 </a>
               </li>
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0 mx-2">
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fa-solid fa-taxi"></i> Cab
                 </a>
               </li>
@@ -117,7 +121,7 @@
       <!-- main section -->
 
         <section class="container py-5 position-relative" id="hotel">
-            <div class="row row-cols-1 row-cols-lg-2 justify-content-between">
+            <div class="row row-cols-1 row-cols-lg-2 justify-content-between align-items-stretch">
               <div class="col mb-5">
                 <h1 class="fw-bold display-3">
                   Find the top <br>
@@ -163,18 +167,18 @@
                 <!-- ................ -->
 
                 <div class="z-10 rounded-4 text-center music shadow-lg">
-                  <i class="fa-solid fa-2x text-danger  fa-headphones"></i>
-                  <h3>24/7</h3>
+                  <i class="fa-solid fa-2x text-danger fa-headphones"></i>
+                  <h4 class="fw-bold">24 / 7</h4>
                   <p>Guide Supports</p>
                 </div>
               </div>
             </div>
             <!-- .............. -->
 
-            <div class="position-absolute w-75 pt-4" id="search">
+            <div class="position-absolute w-75 pt-4 mt-5 mt-xl-0" id="search">
               <h5 class="pb-1">Check Availability</h5>
               <div class="row align-items-center justify-content-center shadow check">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <div class="d-flex align-items-center icons">  
                     <i class="fa-solid fa-2x fa-location-dot me-3"></i>
                     <div class="flex-grow-1">
@@ -186,7 +190,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 date">
+                <div class="col-xl-4 date">
                   <div class="d-flex align-items-center icons">
                     <i class="fa-regular fa-2x fa-calendar me-3"></i>
                     <div class="flex-grow-1 border rounded">
@@ -197,7 +201,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4">
                   <div class="d-flex align-items-center icons">
                     <i class="fa-regular fa-2x fa-user me-3"></i>
                     <div class="flex-grow-1">
