@@ -23,6 +23,27 @@ body{
     background-color: #EDECFB;
     color: #5143D9!important;
 }
+@media screen and (max-width: 992px) {
+    .navbar .navbar-collapse{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 100%;
+        background-color: white;
+        z-index: 1;
+        box-shadow: 0 10px 20px rgba(83, 88, 93, 0.4);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-item{
+        padding: 8px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navbar #navbarCategory .navbar-nav .nav-item{
+        padding: 0;
+        border-bottom: 0;
+    }
+}
+
 .bell{
     padding: 8px;
     background-color: rgb(245, 245, 246);
