@@ -23,6 +23,10 @@ body{
     background-color: #EDECFB;
     color: #5143D9!important;
 }
+.navbar #navbarCategory .navbar-nav .nav-item .nav-link:hover{
+    background-color: #EDECFB;
+    color: #5143D9!important;
+}
 @media screen and (max-width: 992px) {
     .navbar .navbar-collapse{
         position: absolute;
@@ -123,7 +127,7 @@ body{
 /* check availability */
 
 #search{
-    bottom: 8%;
+    bottom: 65px;
 }
 #search .icons{
     color: #bfc0c4;
@@ -156,6 +160,22 @@ body{
     background-color: white;
     z-index: 1;
     color: #bfc0c4;
+}
+@media screen and (max-width: 768px) {
+    #search{
+        position: static!important;
+        bottom: -195px;
+        width: 100%!important;
+    }
+    #hotel .search-bar .magnifying-glass{
+        transform: translate(50%, 50%)!important;
+    }
+    #hotel .search-bar{
+        right: 0!important;
+        bottom: 0px;
+        left: 0;
+        margin: 0 auto;
+    }
 }
 /* search bar */
 
