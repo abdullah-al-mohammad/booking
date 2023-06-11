@@ -226,6 +226,28 @@ body{
     transition: all .3s;
     visibility: visible;
 }
+@media screen and (max-width: 576px) {
+    .control li.prev{
+        left: -5px;
+        transition: all .3s;
+        visibility: hidden;
+    }
+    .control li.next{
+        right: -5px;
+        transition: all .3s;
+        visibility: hidden;
+    }
+    #offer:hover .control li.prev{
+        left: 3px;
+        transition: all .3s;
+        visibility: visible;
+    }
+    #offer:hover .control li.next{
+        right: 3px;
+        transition: all .3s;
+        visibility: visible;
+    }    
+}
 /* clint-card */
 #clint{
     background: url(./images/dot-img.svg);
