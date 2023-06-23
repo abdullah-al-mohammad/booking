@@ -161,6 +161,11 @@ body{
     z-index: 1;
     color: #bfc0c4;
 }
+@media screen and (max-width: 1199px) {
+    #search{
+        bottom: 14px;
+    }
+}
 @media screen and (max-width: 991px) {
     #search{
         position: static!important;
@@ -212,12 +217,12 @@ body{
     transform: translate(0, -50%);
 }
 .control li.prev{
-    left: -10px;
+    left: -5px;
     transition: all .3s;
     visibility: hidden;
 }
 .control li.next{
-    right: -10px;
+    right: -5px;
     transition: all .3s;
     visibility: hidden;
 }
@@ -305,6 +310,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #clint .clint-card{
+        bottom: 226px;
+        left: 50px;
+    }
+}
 /* Featured */
 
 #featuredHotel .map{
@@ -373,22 +384,22 @@ body{
     border: 2px solid black;
 }
 .control2 li.prev{
-    left: -10px;
+    left: 40px;
     transition: all .3s;
     visibility: hidden;
 }
 .control2 li.next{
-    right: -10px;
+    right: 40px;
     transition: all .3s;
     visibility: hidden;
 }
 #advertise:hover .control2 li.prev{
-    left: -25px;
+    left: 25px;
     transition: all .3s;
     visibility: visible;
 }
 #advertise:hover .control2 li.next{
-    right: -25px;
+    right: 25px;
     transition: all .3s;
     visibility: visible;
 }
@@ -455,10 +466,10 @@ body{
 
 
 /* media query */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     #clint .dot-img {
         bottom: -50px;
-        right: 32px;
+        right: -40px;
     }
     #clint .dot-img {
         bottom: -50px;
@@ -466,6 +477,6 @@ body{
     }
     #clint .dot-img {
         bottom: -50px;
-        right: 34px;
+        right: -40px;
     }
 }
