@@ -237,26 +237,10 @@ body{
     visibility: visible;
 }
 @media screen and (max-width: 576px) {
-    .control li.prev{
-        left: -5px;
-        transition: all .3s;
-        visibility: hidden;
+    #offer img{
+        width: 100%;
+        border-radius: 0!important;
     }
-    .control li.next{
-        right: -5px;
-        transition: all .3s;
-        visibility: hidden;
-    }
-    #offer:hover .control li.prev{
-        left: 3px;
-        transition: all .3s;
-        visibility: visible;
-    }
-    #offer:hover .control li.next{
-        right: 3px;
-        transition: all .3s;
-        visibility: visible;
-    }    
 }
 /* clint-card */
 #clint{
@@ -368,6 +352,12 @@ body{
 #advertise .card{
     background: none;
 }
+@media screen and (max-width: 767px) {
+    
+    #advertise .clint{
+        width: 100%!important;
+    }
+}
 /* advertise carousel */
 
 .control2{
@@ -395,18 +385,54 @@ body{
     visibility: hidden;
 }
 #advertise:hover .control2 li.prev{
-    left: 25px;
+    left: 70px;
     transition: all .3s;
     visibility: visible;
 }
 #advertise:hover .control2 li.next{
-    right: 25px;
+    right: 70px;
     transition: all .3s;
     visibility: visible;
 }
 .big-dot{
     right: 74px;
     bottom: 0;
+}
+@media screen and (max-width: 991px) {
+    .control2{
+        list-style: none;   
+    }
+    .control2 li{
+        position:absolute;
+        z-index: 99;
+        color: black;
+        padding: 12px 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        top: 50%;
+        transform: translate(50%, -50%);
+        border: 2px solid black;
+    }
+    .control2 li.prev{
+        left: 40px;
+        transition: all .3s;
+        visibility: hidden;
+    }
+    .control2 li.next{
+        right: 40px;
+        transition: all .3s;
+        visibility: hidden;
+    }
+    #advertise:hover .control2 li.prev{
+        left: 70px;
+        transition: all .3s;
+        visibility: visible;
+    }
+    #advertise:hover .control2 li.next{
+        right: 70px;
+        transition: all .3s;
+        visibility: visible;
+    }
 }
 /* download app */
 
